@@ -163,7 +163,47 @@
 }
 
 /* -----Footer--------- */
+footer{
+    background-color: azure;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 130px;
+    margin-top: 20px;
+}
 
+.details{
+    font-size: 15px;
+    font-weight: 600px;
+    cursor: pointer;
+}
+
+.social{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600px;
+}
+
+.social ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social ul li{
+    padding: 2px;
+}
+
+.social ul li i{
+    color: black;
+    font-size: 25px;
+}
+
+.social ul li i:hover{
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+}
 
 
 
